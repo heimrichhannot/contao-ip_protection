@@ -1,0 +1,32 @@
+{
+    "name": "heimrichhannot/contao-ip_protection",
+    "description":"This module offers the specification of ip addresses and ip address ranges to protect a site.",
+    "keywords":["contao", "page", "protect", "ip", "address", "module", "developer"],
+    "type": "contao-module",
+    "homepage":"https://github.com/heimrichhannot/contao-ip_protection",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Heimrich & Hannot",
+            "email":"digitales@heimrich-hannot.de",
+            "homepage":"http://www.heimrich-hannot.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/heimrichhannot/contao-ip_protection/issues"
+    },
+    "require": {
+        "contao/core": "3.5.*"
+    },
+    "autoload": {
+        "classmap": [""]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/ip_protection"
+            }
+        }
+    }
+}
